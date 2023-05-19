@@ -3,8 +3,8 @@ class Car{
     int price=5000;
     String model="swift";
 
-    public void Start(){
-        System.out.println("Start");
+    public void Start(String n){
+        System.out.println(n+" Start");
     }
     public void Stop(){
         System.out.println("Stop");
@@ -16,7 +16,7 @@ class Car{
 public class first {
     public static void main(String[] args) {
         Car c=new Car();
-        c.Start();
+        c.Start("red");
         c.Turnleft();
         c.Stop();
     }
