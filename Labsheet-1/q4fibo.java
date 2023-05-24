@@ -8,10 +8,7 @@ public class q4fibo {
             System.out.printf("%d\t",a);
            int c=a+b;
             a=b;
-    
             b=c;
-
         }
-
     }
 }
