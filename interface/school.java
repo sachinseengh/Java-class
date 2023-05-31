@@ -1,0 +1,3 @@
+interface School{
+    void time();
+}
