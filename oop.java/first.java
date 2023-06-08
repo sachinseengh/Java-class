@@ -15,7 +15,7 @@ class Car{
 }
 public class first {
     public static void main(String[] args) {
-        Car c=new Car();
+        Cars c=new Cars();
         c.Start("red");
         c.Turnleft();
         c.Stop();
