@@ -1,15 +1,20 @@
 
-class School{
-    public void fee(){
+class School {
+    public void fee() {
         System.out.println("Your remaining fee is 1000");
     }
 }
 
-public class  _5singleinheitence{
-    public static void main(String[] args) {
-        School school = new School();
+class Exam extends School {
+    public void Result() {
+        System.out.println("Your result ");
+    }
+}
 
-        school.fee();
-        
+public class _5singleinheitence {
+    public static void main(String[] args) {
+        Exam ex = new Exam();
+        ex.fee();
+
     }
 }

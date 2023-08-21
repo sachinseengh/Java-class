@@ -8,6 +8,7 @@ public class _3MethodOverloading {
         System.out.println("sum is "+(a+b+c));
     }
     public static void main(String[] args) {
+        sum(5,4);
         sum(5,4,5);
     }
 }

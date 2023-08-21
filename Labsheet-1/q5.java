@@ -6,7 +6,7 @@ public class q5{
 
     
         int great=arr[0];
-        // System.out.println(great);
+        
 
         for(int i=1;i<arr.length;i++){
            
@@ -17,7 +17,6 @@ public class q5{
             }
         }
         
-    // System.out.println(arr.length);
     System.out.println(great);
     
 

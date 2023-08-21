@@ -11,6 +11,7 @@ public class q2 {
         float percentage=sc.nextFloat();
 
 
-        System.out.println("your name,roll and percentage are "+name+","+roll+" and "+percentage+" respectively");
+        System.out.println("your name,roll and percentage are "+name+","+roll+" and "
+        +percentage+" respectively");
     }
 }

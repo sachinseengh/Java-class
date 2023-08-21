@@ -1,10 +1,10 @@
-package Threading;
+// package Threading;
 
 
 public class Priority implements Runnable {
     public void run(){
         
-             System.out.println(Thread.currentThread());  //This method is static
+             System.out.println(Thread.currentThread());  
     }
     public static void main(String[] args) {
         Priority pp = new Priority();

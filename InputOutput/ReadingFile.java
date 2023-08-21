@@ -5,12 +5,12 @@ public class ReadingFile {
     
         File file = new File("input.txt");
         
-        BufferedReader br = new BufferedReader(new UsingFileReader(file));
+         if(BufferedReader br = new BufferedReader(new UsingFileReader(file))) {
+            String st;
 
-        String st;
-
-        while((st = br.readLine()) != null){
-            System.out.println(st);
+            while((st = br.readLine()) != null){
+                System.out.println(st);
+            }
         }
     }
 }
