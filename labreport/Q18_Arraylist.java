@@ -1,5 +1,4 @@
-
-    import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collections;
 
 public class Q18_Arraylist {

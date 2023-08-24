@@ -1,5 +1,5 @@
 // package labreport;
-
+import java.lang.Math;
 
     public class Q2_Math{
         public static void main(String[] args) {
