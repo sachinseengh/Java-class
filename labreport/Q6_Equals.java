@@ -6,10 +6,10 @@ public class Q6_Equals {
 
         boolean Result = s1.equals(s2);
 
-        if(Result == true){
-            System.out.println("First String is greater than second");
-        }else{
-            System.out.println("Second String is greater");
+        if (Result == true) {
+            System.out.println("Both Strings are equal");
+        } else {
+            System.out.println("Strings are not equal");
         }
 
     }
